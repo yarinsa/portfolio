@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Flex alignItems="ceneter" justifyContent="center" height="100%" p={5}>
-        <Grid gridGap={2} width="100%" templateAreas={`"header project-a project-b"
+        <Grid gridGap={5} width="100%" templateAreas={`"header project-a project-b"
                             "project-c project-d project-e"`}>
           <GridItem area="header">
             <Card>
